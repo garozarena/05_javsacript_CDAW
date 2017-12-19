@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="ejercicio.js"></script>
+</head>
+<body>
+	
+	<form>
+		<p>Inicio</p>
+		<input type="text" id="inicio" name="inicio">
+		<p>Fin</p>
+		<input type="text" id="final" name="final"><br>
+		<br>
+		<input type="button" onclick="mostrar()" value="Mostrar">
+	</form>
+	<hr>
+	<form>
+		<p>Unidad</p>
+		<input type="text" id="unidad">
+		<p>Precio</p>
+		<input type="text" id="precio"><br>
+		<br>
+		<input type="button" onclick="calcularPrecio()" value="Calcular">
+	</form>
+	<hr>
+	<form>
+		<p>Dime mi número secreto</p>
+		<input type="text" id="numUser"> <br>
+		<br>
+		<input type="button" value="Comprobar" onClick="comprobarNumero()">
+	</form>
+</body>
+</html>
